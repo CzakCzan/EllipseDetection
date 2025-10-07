@@ -2,7 +2,7 @@
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/imgproc.hpp>
 
-#include <ellipse_contour.hpp>
+#include <ellipses/ellipse_contour.hpp>
 
 int main(int argc, char* argv[])
 {

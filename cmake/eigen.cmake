@@ -2,8 +2,8 @@ include_guard()
 include(FetchContent)
 
 set(EIGEN3_WORLD_VERSION 3)
-set(EIGEN3_MAJOR_VERSION 3)
-set(EIGEN3_MINOR_VERSION 7)
+set(EIGEN3_MAJOR_VERSION 4)
+set(EIGEN3_MINOR_VERSION 0)
 
 FetchContent_Declare(
     eigen
