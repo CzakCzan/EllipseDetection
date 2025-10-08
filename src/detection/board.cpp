@@ -67,8 +67,8 @@ BoardHexGrid::BoardHexGrid()
     padding_UL_cm_ = Eigen::Vector3d(1.0f, 1.149f, 0.f);  // cols, rows, 0
     padding_BR_cm_ = Eigen::Vector3d(0.5f, 0.5f, 0.f);    // cols, rows, 0
 
-    rows_ = 27;
-    cols_ = 33;
+    rows_ = 21;
+    cols_ = 27;
     inner_radius_ = 0.28f;
     outer_radius_ = 0.5f;
     spacing_cols_ = 1.2f;

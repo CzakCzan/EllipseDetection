@@ -67,10 +67,10 @@ class BoardHexGrid
     float spacing_cols_;
     float spacing_rows_;
 
-    const int row_left_ = 13;
-    const int col_left_ = 14;
-    const int row_right_ = 13;
-    const int col_right_ = 16;
+    const int row_left_ = 9;
+    const int col_left_ = 11;
+    const int row_right_ = 9;
+    const int col_right_ = 13;
 
     std::vector<Eigen::Vector3d> marker_centers_;
 

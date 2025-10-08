@@ -8,7 +8,24 @@ namespace
 std::tuple<int, int, int> get_minimal_maximal_and_edge(const float focal_in_pixel, const float dimension,
                                                        const float min_z, const float max_z)
 {
-    const float dimension_at_angle = dimension * std::tan(3.14 / 4.0);  // allow 45 deg observation
+    /*
+            max dim at alfa angle
+              |
+              |
+        0_____|_____max dim physical
+        |\alfa|    /
+        | \   |   |
+        |  \  |  /
+        |   \ | |
+        |    \|/
+        |
+        |
+        |
+        |
+        0
+    */
+
+    const float dimension_at_angle = dimension * std::cos(3.14 / 4.0);  // allow 45 deg observation
 
     const float minimal_frontal_size = dimension_at_angle / max_z;
     const float minimal_pixel_size = minimal_frontal_size * focal_in_pixel;
